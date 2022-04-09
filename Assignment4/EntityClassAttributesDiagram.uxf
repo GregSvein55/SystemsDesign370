@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>9</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>216</x>
+      <y>18</y>
+      <w>189</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;entity&gt;&gt;
+Mail Trucks
+--
+shippingLabel: String
+address: String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>414</x>
+      <y>18</y>
+      <w>189</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;entity&gt;&gt;
+Supplier Trucks
+--
+barcode: int
+itemList: String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>612</x>
+      <y>18</y>
+      <w>189</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;entity&gt;&gt;
+Special Barcode
+--
+barcode: int
+specialBarcode: int</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>216</x>
+      <y>180</y>
+      <w>189</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;entity&gt;&gt;
+Main Financial System
+--
+shippingList: String
+price: float</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>612</x>
+      <y>180</y>
+      <w>189</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;entity&gt;&gt;
+Main Storage Plans
+--
+storagePlans: String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>414</x>
+      <y>180</y>
+      <w>189</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;entity&gt;&gt;
+Inventory
+--
+item: String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>612</x>
+      <y>342</y>
+      <w>189</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;entity&gt;&gt;
+Shipping List
+--
+item: String
+location: String
+address: String
+shippingLabel: String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>414</x>
+      <y>342</y>
+      <w>189</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;entity&gt;&gt;
+Forwarding Robots
+--
+storagePlans: String
+barcode: int</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>216</x>
+      <y>342</y>
+      <w>189</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;entity&gt;&gt;
+Shipping Robots
+--
+storagePlans: String
+barcode: int
+boxType: String
+shippingLabel: String
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>216</x>
+      <y>504</y>
+      <w>189</w>
+      <h>162</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;entity&gt;&gt;
+Inventory Management System
+--
+storagePlans: String
+barcode: int
+shippingList: String
+shippingLabel: String
+location: String
+item: String
+price: float
+isApproved: boolean</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

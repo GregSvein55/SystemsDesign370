@@ -1,3 +1,11 @@
+Name your files as: 
+Assumptions.pdf
+UseCasesDescriptions.pdf
+UseCaseDiagram.pdf
+SoftwareSystemContextClassDiagram.pdf
+EntityClassModelDiagram.pdf
+EntityClassAttributesDiagram.pdf
+
 In this assignment, you will perform a static design for an AmaZion Warehouse Manager system.
 Here are the specification and the requirements:
 

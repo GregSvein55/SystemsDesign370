@@ -1,5 +1,5 @@
-I linked the video in the comments before the due date, 
-not sure if you could see that since there was no files attatched.
-
-Anyways sorry about that, if I had known that you couldn't see the comments
-without a submission I would have submitted my lab book along with it at the time
+ Deliverables
+• Write a small document detailing the design pattern you have chosen and why it applies to
+this design.
+• Create a class diagram for your code.
+• Create a sequence diagram for the make coffee routine.
